@@ -105,7 +105,7 @@
           <div class="card mb-4 shadow-sm">
             <img src="img/holder6.jpg" class="overlay">
             <div class="card-body">
-              <a href="content.php"><p class="card-text">Safeguarding</p></a>
+              <a href="virtual-tour.php"><p class="card-text">Virtual Tour</p></a>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@
             <img src="img/holder5.jpg" class="overlay">
 
             <div class="card-body">
-              <p class="card-text">Wellbeing</p>
+              <a href="curriculum.php"><p class="card-text">Curriculum</p></a>
             </div>
           </div>
         </div>
@@ -216,9 +216,10 @@
                       <div class="card mb-4 shadow-sm">
                         <img src="img/holder6.jpg" class="overlay">
                         <div class="card-body">
-                          <h3 class="pb-1">Latest Ofsted Visit</h3>
+                          <a href="news.php"><h3 class="pb-1">Latest Ofsted Visit</h3></a>
                           <p class="card-text">This is a wider card with supporting text below .....</p>
                         </div>
+
                       </div>
                     </div>
                     <div class="col-md-4">
@@ -242,12 +243,12 @@
                     <div class="row no-gutters  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
+                        <div class="mb-1 text-muted">NOV 12</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button>
+                        <a href="news.php"><button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
                       </div>
                       <div class="col-auto d-none d-lg-block events-image">
-                       <img src="img/holder9.jpg" height="190">
+                        <img src="img/holder4.jpg" height="200">
                       </div>
                     </div>
                   </div>
@@ -255,12 +256,12 @@
                     <div class="row no-gutters  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">Nov 12</div>
+                        <div class="mb-1 text-muted">OCT 21</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button>
+                        <a href="news.php"><button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
                       </div>
                       <div class="col-auto d-none d-lg-block events-image">
-                       <img src="img/holder5.jpg" height="190">
+                       <img src="img/holder5.jpg" height="200">
                       </div>
                     </div>
                   </div>

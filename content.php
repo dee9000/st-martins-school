@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-<section>
 
   <!-- Jumbotron -->
 <div class="jumbotron content-jumbotron-header p-5 text-center bg-image rounded-3">
@@ -22,10 +21,10 @@
 </div>
 <section class="content-title">
 <!-- container and side menu -->
-<section class="content-body" data-aos="fade-up">
-<div class="container sidebar-container col-sm-10">
+<div class="content-body animate__animated animate__fadeInUp">
+<div class="container content-container col-sm-10">
   <div class="row">
-  <div class="card">
+  <div class="card sidebar-menu-container">
   <div class="card-header">
     <h3>MENU</h3>
   </div>
@@ -54,7 +53,7 @@
 </div>
 </div>
 </div>
-</section>
+</div>
 
 
 

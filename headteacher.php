@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-<section>
 
   <!-- Jumbotron -->
 <div class="jumbotron content-jumbotron-header p-5 text-center bg-image rounded-3">
@@ -20,10 +19,9 @@
     </svg>
 </div>
 </div>
-<section class="content-title">
 <!-- container and side menu -->
-<section class="content-body" data-aos="fade-down">
-<div class="container sidebar-container col-sm-9">
+<section class="content-body animate__animated animate__fadeInUp">
+<div class="container content-container col-sm-9">
 <div class="jumbotron sidebar-container-text">
   <img src="img/teacher.jpeg" alt="">
   <h4>Welcome to St. Martins School</h4>
@@ -43,5 +41,4 @@
 
 
 
-</section>
 <?php include 'footer.php';?>

@@ -5,7 +5,7 @@
   <div class="overlay">
     <div class="d-flex justify-content-center align-items-center">
       <div class="text-white pt-15">
-        <h1 class="animate__animated animate__fadeInDown">Gallery</h1>
+        <h1 class="animate__animated animate__fadeInDown">News</h1>
       </div>
     </div>
   </div>
@@ -21,9 +21,23 @@
 <section>
 
 <div class="animate__animated animate__fadeInUp container-news">
+  <!-- container news headliner-->
+
+  <div class="col-md-10 container">
+    <div class=" mb-5 headline-container border-0">
+     <img src="img/image-cap1.png" class="card-img-top shadow-sm" alt="">
+      <div class="card-body">
+        <h3 class="card-title">Top Story</h3>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+
   <!-- container news boxes-->
-<div class="container col-sm-10 gallery-container">
-<div class="row">
+
+
+<div class="container col-sm-10">
+<div class=" row">
   <div class="col-md-4">
     <div class="card mb-4  border-0">
      <img src="img/holder1.jpg" alt="" class="shadow-sm">

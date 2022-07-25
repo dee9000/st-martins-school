@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-<section>
 
   <!-- Jumbotron -->
 <div class="jumbotron content-jumbotron-header p-5 text-center bg-image rounded-3">
@@ -20,10 +19,9 @@
     </svg>
 </div>
 </div>
-<section class="content-title">
 <!-- container and side menu -->
-<section class="content-body" data-aos="fade-up">
-<div class="container sidebar-container col-sm-8">
+<section class="content-body animate__animated animate__fadeInUp">
+<div class="container content-container col-sm-8">
 <div class="jumbotron sidebar-container-text">
         <p>Welcome to St Martins post 16 provision!
 
@@ -93,16 +91,9 @@
 </form>
 
 
-
-
-
-
-
 </div>
 </div>
 </section>
 
 
-
-</section>
 <?php include 'footer.php';?>

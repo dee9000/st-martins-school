@@ -1,6 +1,5 @@
 <?php include 'header.php';?>
 
-<section>
 
   <!-- Jumbotron -->
 <div class="jumbotron content-jumbotron-header p-5 text-center bg-image rounded-3">
@@ -20,14 +19,11 @@
     </svg>
 </div>
 </div>
-<section class="content-title">
 <!-- container and side menu -->
-<section class="content-body" data-aos="fade-up">
-<div class="container sidebar-container col-sm-10">
+<section class="content-body animate__animated animate__fadeInUp">
+<div class="container content-container col-sm-10">
 <div class="jumbotron sidebar-container-text">
-  <h1>Welcome to St Martins School</h1>
-  	<p>St Martins is an outstanding school catering for students aged 11 &#8211; 19 years with additional learning needs.</p>
-  <h4>Our Vision</h4>
+  <h1>Our Vision</h1>
   <p>St Martins is a happy, safe and caring learning community where relationships are built on mutual respect and everyone is valued.</p>
   <p>Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.</p>
   <h4>Our Student Values</h4>
@@ -54,5 +50,4 @@
 
 
 
-</section>
 <?php include 'footer.php';?>

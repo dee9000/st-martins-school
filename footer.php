@@ -1,5 +1,7 @@
 
   <!-- FOOTER -->
+  <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top"><i>Up</i></button>
+
     <!-- Remove the container if you want to extend the Footer to full width. -->
 <div class="my-5 footer-container">
 
@@ -21,17 +23,17 @@
           <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>
               <a class="text-white px-2" href="#!">
-                <i class="fab fa-facebook-square"></i>
+                <i class="fa fa-twitter" style="font-size:24px"></i>
               </a>
             </li>
             <li>
               <a class="text-white px-2" href="#!">
-                <i class="fab fa-instagram"></i>
+                <i class="fa fa-instagram" style="font-size:24px"></i>
               </a>
             </li>
             <li>
-              <a class="text-white ps-2" href="#!">
-                <i class="fab fa-youtube"></i>
+              <a class="text-white px-2" href="#!">
+                <i class="fa fa-youtube" style="font-size:24px"></i>
               </a>
             </li>
           </ul>
@@ -43,27 +45,27 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-justify">
           <h5 class="text-uppercase mb-4">OUR SCHOOL</h5>
 
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled medium">
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Outcomes</a>
+              <a href="#!" class="text-white"></i>Outcomes</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Gallery</a>
+              <a href="#!" class="text-white"></i>Gallery</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>School Information Report</a>
+              <a href="#!" class="text-white"></i>School Information Report</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Lettings</a>
+              <a href="#!" class="text-white"></i>Lettings</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Ofsted Report & Information</a>
+              <a href="#!" class="text-white"></i>Ofsted Report & Information</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Our Ethos & Values</a>
+              <a href="#!" class="text-white"></i>Our Ethos & Values</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Policies</a>
+              <a href="#!" class="text-white"></i>Policies</a>
             </li>
           </ul>
         </div>
@@ -73,24 +75,24 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-justify">
           <h5 class="text-uppercase mb-4">Parents</h5>
 
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled medium">
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>General information</a>
+              <a href="#!" class="text-white"></i>General information</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>After School Clubs</a>
+              <a href="#!" class="text-white"></i>After School Clubs</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Next Steps Post 16</a>
+              <a href="#!" class="text-white"></i>Next Steps Post 16</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Newsletter</a>
+              <a href="#!" class="text-white"></i>Newsletter</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Complaints Procedure</a>
+              <a href="#!" class="text-white"></i>Complaints Procedure</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"><i class="fas fa-paw pe-3"></i>Family Support</a>
+              <a href="#!" class="text-white"></i>Family Support</a>
             </li>
           </ul>
         </div>
@@ -100,16 +102,10 @@
         <div class="col-lg-3 col-md-6 mb-4 mb-md-0 text-justify">
           <h5 class="text-uppercase mb-4">Contact</h5>
 
-          <ul class="list-unstyled small">
-            <li>
-              <p><i class="fas fa-map-marker-alt pe-2"></i>The Derwent Campus, Bracknell Drive, DE24 0BT.</p>
-            </li>
-            <li>
-              <p><i class="fas fa-phone pe-2"></i>+ 01 234 567 89</p>
-            </li>
-            <li>
-              <p><i class="fas fa-envelope pe-2 mb-0"></i>contact@example.com</p>
-            </li>
+          <ul class="list-unstyled medium">
+            <li class="pb-2">The Derwent Campus, Bracknell Drive, DE24 0BT.</li>
+            <li class="pb-2">+ 01 234 567 89</li>
+            <li class="pb-2">contact@example.com</li>
           </ul>
         </div>
         <!--Grid column-->
@@ -122,6 +118,8 @@
     <div class="text-center p-3 copyright-container">
       © 2022 Copyright:
       <a class="text-white" href="https://mdbootstrap.com/">schudio</a>
+      <!-- Back to top button -->
+
     </div>
     <!-- Copyright -->
 
@@ -143,6 +141,33 @@ AOS.init({
 });
 </script>
 <script> $(window).scroll(function(){ $('nav').toggleClass('scrolled', $(this).scrollTop() > 200); }); </script>
+<script>
+//Get the button fast button to take you to top of screen
+let mybutton = document.getElementById("btn-back-to-top");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (
+    document.body.scrollTop > 20 ||
+    document.documentElement.scrollTop > 20
+  ) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+// When the user clicks on the button, scroll to the top of the document
+mybutton.addEventListener("click", backToTop);
+
+function backToTop() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 
 
   </body>
