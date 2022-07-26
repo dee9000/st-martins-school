@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/carousel/">
+    <!--favicon-->
+    <link rel="icon" href="img/logo1.png" type="image/png">
     <!--google fonts mr de havilland-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
