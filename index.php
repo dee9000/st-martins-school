@@ -1,8 +1,7 @@
 <?php include 'header.php';?>
 
-<main role="main">
   <!--carousel-->
-  <section class="carousel">
+  <div class="carousel">
   <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
   <div class="carousel-item active overlay">
@@ -31,35 +30,38 @@
   </a>
   </div>
   <div class="school-welcome">
-  <img src="img/logo-transp.png" class="animate__animated animate__flip">
+  <img src="img/logo-transp.png" class="animate__animated animate__flip" alt="logo">
   <h1 class="animate__animated animate__backInUp">St. Martins School</h1>
   <h2 class="decorated animate__animated animate__backInLeft"><span>OFSTED Outstanding School Status</span></h2>
   </div>
   <div class="scroll-downs">
-<div class="mousey">
-  <div class="scroller" a href="#about"></div>
-</div>
+<a href="#about-anchor"><div class="mousey">
+  <div class="scroller"></div>
+</div></a>
  <span class="text">Scroll down</span>
 </div>
-  </section>
-</header>
-<!---first svg "V" shape----------------------->
+</div>
+<!--first svg "V" shape-->
 
-<div class="svg-container">
+     <div class="svg-container">
       <div class="custom-shape-divider-bottom-1650070433">
       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
       <path d="M598.97 114.72L0 0 0 120 1200 120 1200 0 598.97 114.72z" class="shape-fill"></path>
       </svg>
-</div>
+     </div>
+   </div>
 
 <!--we are st martins welcome section-->
+<div id="about-anchor"></div>
   <div class="container-fluid p-3 we-are-stmartins">
     <div class="row featurette mx-auto">
       <div class="col-md-7">
         <h2 class="featurette-headings" data-aos="fade-down">We Are<br>St.Martins</h2>
         <p class="lead pt-3" data-aos="fade-left">St Martins is a happy, safe and caring learning community where relationships are built on mutual respect and everyone is valued.
         Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-        <br><a href="about.php"><button type="button" class="btn"><span> > <span></button></a></p>
+        <br><a href="about.php" class="btn"><span> > </span></a></p>
+
+
       </div>
       <div class="col-md-5" data-aos="fade-up">
           <img src="img/holder1.jpg" alt="holder image">
@@ -78,13 +80,14 @@
       <h2 class="font-weight-bold pt-2">Headteacher</h2>
       <h3 class="font-weight-lighter font-italic">Mrs V. Henderssen</h3>
       <p class="lead pt-4">Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-      <br><a href="headteacher.php"><button type="button" class="btn mt-3"><span> > <span></button></a></p>
+      <br><a href="headteacher.php" class="btn mt-3"><span> > </span></a></p>
+
     </div>
 
   </div>
   </div>
   </div>
-  <!---second svg "V" shape----------------------->
+  <!--second svg "V" shape-->
 
   <div class="svg-container">
     <div class="custom-shape-divider-top-1656493066">
@@ -103,7 +106,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder6.jpg" class="overlay">
+            <img src="img/holder6.jpg" class="overlay" alt="holder image">
             <div class="card-body">
               <a href="virtual-tour.php"><p class="card-text">Virtual Tour</p></a>
             </div>
@@ -111,7 +114,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder4.jpg" class="overlay">
+            <img src="img/holder4.jpg" class="overlay" alt="holder image">
 
             <div class="card-body">
               <a href="gallery.php"><p class="card-text">Gallery</p></a>
@@ -120,7 +123,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder5.jpg" class="overlay">
+            <img src="img/holder5.jpg" class="overlay" alt="holder image">
 
             <div class="card-body">
               <a href="curriculum.php"><p class="card-text">Curriculum</p></a>
@@ -130,7 +133,7 @@
 
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder9.jpg" class="overlay">
+            <img src="img/holder9.jpg" class="overlay" alt="holder image">
 
             <div class="card-body">
               <p class="card-text">Term Dates</p>
@@ -139,7 +142,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder8.jpg" class="overlay">
+            <img src="img/holder8.jpg" class="overlay" alt="holder image">
 
             <div class="card-body">
               <p class="card-text">Admissions</p>
@@ -148,7 +151,7 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <img src="img/holder7.jpg" class="overlay">
+            <img src="img/holder7.jpg" class="overlay" alt="holder image">
 
             <div class="card-body">
               <p class="card-text">Parents</p>
@@ -173,7 +176,8 @@
               <h2 class="featurette-headings" data-aos="fade-down">Vision & Values</h2>
               <p class="lead pt-3"  data-aos="fade-up">St Martins is a happy, safe and caring learning community where relationships are built on mutual respect and everyone is valued.
               Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-              <br><a href="visions-values.php"><button type="button" class="btn"><span> > <span></button></a></p>
+              <br><a href="visions-values.php" class="btn"><span> > </span></a></p>
+
             </div>
             <div class="col-md-5"  data-aos="fade-left">
                 <img src="img/holder10.png" alt="holder image">
@@ -191,22 +195,23 @@
                 <h2 class="font-weight-bold p-2">Horizons 6th form school</h2>
                 <p class="lead pt-3">Horizons is the new post 16 sixth form for students who need additional support and guidance to be able to access further education and work placement experience.
 
-                  <br><a href="horizons.php"><button type="button" class="btn btn-beige mt-3"><span> > <span></button></a></p>
+                  <br><a href="horizons.php" class="btn btn-beige mt-3"><span> > </span></a></p>
+
               </div>
 
             </div>
             </div>
 
-            <!---svg above news and events--->
+            <!--svg above news and events-->
             <div class="svg-container">
               <div class="custom-shape-divider-bottom-1656495763">
               <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
               <path d="M892.25 114.72L0 0 0 120 1200 120 1200 0 892.25 114.72z" class="shape-fill"></path>
               </svg>
-</div>
+             </div>
             </div>
 
-            <!--- News events and location--->
+            <!-- News events and location-->
 
             <div class="py-5 my-5 news-and-events">
                 <div class="container"  data-aos="fade-down">
@@ -214,7 +219,7 @@
                   <div class="row">
                     <div class="col-md-4">
                       <div class="card mb-4 shadow-sm">
-                        <img src="img/holder6.jpg" class="overlay">
+                        <img src="img/holder6.jpg" class="overlay" alt="holder image">
                         <div class="card-body">
                           <a href="news.php"><h3 class="pb-1">Latest Ofsted Visit</h3></a>
                           <p class="card-text">This is a wider card with supporting text below .....</p>
@@ -224,7 +229,7 @@
                     </div>
                     <div class="col-md-4">
                       <div class="card mb-4 shadow-sm">
-                        <img src="img/holder4.jpg" class="overlay">
+                        <img src="img/holder4.jpg" class="overlay" alt="holder image">
                         <div class="card-body">
                           <h3 class="pb-1">Zoo Trip</h3>
                           <p class="card-text">This is a wider card with supporting text below .....</p>
@@ -233,9 +238,9 @@
                     </div>
                     <div class="col-md-4 twitter-embedd">
                       <div class="card mb-4 shadow-sm">
-                         <a class="twitter-timeline" data-width="550" data-height="370" data-theme="dark" href="https://twitter.com/SchudioTv?ref_src=twsrc%5Etfw">Tweets by SchudioTv</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                      </div>
+                         <a class="twitter-timeline" data-width="550" data-height="370" data-theme="dark" href="https://twitter.com/SchudioTv?ref_src=twsrc%5Etfw">Tweets by SchudioTv</a> <script async src="https://platform.twitter.com/widgets.js" ></script>                      </div>
                     </div>
-                    <!---Events--->
+                    <!--Events-->
 
                     <h1 class="container text-xl-left">Events</h1>
                   <div class="row mb-2">
@@ -245,10 +250,10 @@
                         <h3 class="mb-0">Featured post</h3>
                         <div class="mb-1 text-muted">NOV 12</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
-                        <a href="news.php"><button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                        <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
                       </div>
                       <div class="col-auto d-none d-lg-block events-image">
-                        <img src="img/holder4.jpg" height="200">
+                        <img src="img/holder4.jpg" height="200" alt="holder image">
                       </div>
                     </div>
                   </div>
@@ -258,10 +263,10 @@
                         <h3 class="mb-0">Featured post</h3>
                         <div class="mb-1 text-muted">OCT 21</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
-                        <a href="news.php"><button type="button" class="btn btn-sm btn-outline-secondary">READ MORE</button></a>
+                        <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
                       </div>
                       <div class="col-auto d-none d-lg-block events-image">
-                       <img src="img/holder5.jpg" height="200">
+                       <img src="img/holder5.jpg" height="200" alt="holder image">
                       </div>
                     </div>
                   </div>
@@ -276,44 +281,44 @@
        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
        </svg>
-   </div>
+             </div>
            </div>
 
              <!--LOCATION MAP-->
-             <section class="container school-map-container mb-5">
+             <div class="container school-map-container mb-5">
                <div class="location-container">
                <div class="embed-responsive-item pb-0">
                  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9630.722532889964!2d-1.438291!3d52.8821666!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x66bb607dd1035ab8!2sSt%20Martin&#39;s%20School!5e0!3m2!1sen!2suk!4v1656765798005!5m2!1sen!2suk" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                </div>
              </div>
-             </section>
+           </div>
 
       <!--affiliates clients endorsements accreditations-->
-         <section class="affiliates pt-25">
+         <div class="affiliates pt-25">
            <div class="container h-100">
      <div class="row align-items-center h-100">
        <div class="container rounded">
          <div class="slider">
            <div class="logos">
-             <i><img src="img/accre-1.jpeg" height="100px"></i>
-             <i><img src="img/accre-2.jpeg" height="100px"></i>
-             <i><img src="img/accre-3.jpeg" height="100px"></i>
-             <i><img src="img/accre-4.jpeg" height="100px"></i>
-             <i><img src="img/accre-5.jpeg" height="100px"></i>
-             <i><img src="img/accre-6.jpeg" height="100px"></i>
-             <i><img src="img/accre-1.jpeg" height="100px"></i>
-             <i><img src="img/accre-2.jpeg" height="100px"></i>
-             <i><img src="img/accre-3.jpeg" height="100px"></i>
-             <i><img src="img/accre-4.jpeg" height="100px"></i>
-             <i><img src="img/accre-5.jpeg" height="100px"></i>
-             <i><img src="img/accre-6.jpeg" height="100px"></i>
+             <i><img src="img/accre-1.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-2.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-3.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-4.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-5.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-6.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-1.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-2.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-3.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-4.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-5.jpeg" height="100" alt="holder image"></i>
+             <i><img src="img/accre-6.jpeg" height="100" alt="holder image"></i>
            </div>
          </div>
        </div>
      </div>
 
    </div>
- </section>
+ </div>
 
 
 

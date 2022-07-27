@@ -47,25 +47,25 @@
 
           <ul class="list-unstyled medium">
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Outcomes</a>
+              <a href="#!" class="text-white">Outcomes</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Gallery</a>
+              <a href="#!" class="text-white">Gallery</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>School Information Report</a>
+              <a href="#!" class="text-white">School Information Report</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Lettings</a>
+              <a href="#!" class="text-white">Lettings</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Ofsted Report & Information</a>
+              <a href="#!" class="text-white">Ofsted Report & Information</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Our Ethos & Values</a>
+              <a href="#!" class="text-white">Our Ethos & Values</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Policies</a>
+              <a href="#!" class="text-white">Policies</a>
             </li>
           </ul>
         </div>
@@ -77,22 +77,22 @@
 
           <ul class="list-unstyled medium">
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>General information</a>
+              <a href="#!" class="text-white">General information</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>After School Clubs</a>
+              <a href="#!" class="text-white">After School Clubs</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Next Steps Post 16</a>
+              <a href="#!" class="text-white">Next Steps Post 16</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Newsletter</a>
+              <a href="#!" class="text-white">Newsletter</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Complaints Procedure</a>
+              <a href="#!" class="text-white">Complaints Procedure</a>
             </li>
             <li class="mb-2">
-              <a href="#!" class="text-white"></i>Family Support</a>
+              <a href="#!" class="text-white">Family Support</a>
             </li>
           </ul>
         </div>
@@ -129,7 +129,6 @@
 </footer>
 
 </div>
-</main>
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
