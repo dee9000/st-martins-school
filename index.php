@@ -59,7 +59,7 @@
         <h2 class="featurette-headings" data-aos="fade-down">We Are<br>St.Martins</h2>
         <p class="lead pt-3" data-aos="fade-left">St Martins is a happy, safe and caring learning community where relationships are built on mutual respect and everyone is valued.
         Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-        <br><a href="about.php" class="btn"><span> > </span></a></p>
+        <br><a href="about.php" class="btn"><span> &raquo; </span></a></p>
 
 
       </div>
@@ -80,7 +80,7 @@
       <h2 class="font-weight-bold pt-2">Headteacher</h2>
       <h3 class="font-weight-lighter font-italic">Mrs V. Henderssen</h3>
       <p class="lead pt-4">Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-      <br><a href="headteacher.php" class="btn mt-3"><span> > </span></a></p>
+      <br><a href="headteacher.php" class="btn mt-3"><span> &raquo; </span></a></p>
 
     </div>
 
@@ -176,7 +176,7 @@
               <h2 class="featurette-headings" data-aos="fade-down">Vision & Values</h2>
               <p class="lead pt-3"  data-aos="fade-up">St Martins is a happy, safe and caring learning community where relationships are built on mutual respect and everyone is valued.
               Within our aspirational environment learning empowers everyone, through hard work and positive contribution, towards independence and a successful future.
-              <br><a href="visions-values.php" class="btn"><span> > </span></a></p>
+              <br><a href="visions-values.php" class="btn"><span> &raquo; </span></a></p>
 
             </div>
             <div class="col-md-5"  data-aos="fade-left">
@@ -195,7 +195,7 @@
                 <h2 class="font-weight-bold p-2">Horizons 6th form school</h2>
                 <p class="lead pt-3">Horizons is the new post 16 sixth form for students who need additional support and guidance to be able to access further education and work placement experience.
 
-                  <br><a href="horizons.php" class="btn btn-beige mt-3"><span> > </span></a></p>
+                  <br><a href="horizons.php" class="btn btn-beige mt-3"><span> &raquo; </span></a></p>
 
               </div>
 
