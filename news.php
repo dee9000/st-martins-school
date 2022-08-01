@@ -27,7 +27,7 @@
     <div class=" mb-5 headline-container border-0">
      <img src="img/image-cap1.png" class="card-img-top shadow-sm" alt="">
       <div class="card-body">
-        <h3 class="card-title">Top Story</h3>
+        <h3 class="card-title">Headline Story</h3>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       </div>
     </div>

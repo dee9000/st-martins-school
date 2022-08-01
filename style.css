@@ -525,10 +525,7 @@ body p{
     font-size: 22px;
     color:#333333;
 }
-.album .card-text:hover{
-    color:#F6F3EC;
-    transition:all ease 0.1s;
-}
+
 .album .row{
     background-color:#333333;
 }
@@ -537,10 +534,15 @@ body p{
     overflow: hidden;
     cursor: pointer;
 }
+/*discover st martins*/
 .album .card-body:hover{
     background-color:#191919;
     color:#F6F3EC;
     transition:all ease 1s;
+}
+.album .card-text:hover{
+    color:#F6F3EC;
+    transition:all ease 0.1s;
 }
 .overlay {
     opacity: 1;
@@ -955,6 +957,10 @@ input[type=email]{
 /*------GALLERY------*/
 .container-news{
     position: relative;
+}
+.container-news .card-text:hover{
+    color:#F6F3EC;
+    transition:all ease 0.1s;
 }
 .container-news .gallery-container{
     bottom:20em;
