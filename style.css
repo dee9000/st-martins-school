@@ -409,6 +409,7 @@ body p{
 .headteacher-section{
     position:relative;
 }
+
 .headteacher-section .lead{
   font-family: 'Jura', sans-serif;
   font-size: 22px;
@@ -526,7 +527,7 @@ body p{
 }
 .album .card-text:hover{
     color:#F6F3EC;
-    transition:all ease 0.3s;
+    transition:all ease 0.1s;
 }
 .album .row{
     background-color:#333333;
@@ -698,7 +699,7 @@ body p{
 }
 .news-and-events .card-body:hover{
     background-color:#191919;
-    color:#F6F3EC;
+    color:#ffffff;
     transition:all ease 1s;
 }
 /*remove image for events responsive*/
@@ -873,9 +874,6 @@ body p{
     background-image:url("img/content-background.jpg");
     background-repeat:no-repeat;
     background-size:cover;
-    font-family: 'Jura', sans-serif;
-    font-size: 22px;
-    color:#2B2B2B;
 }
 .content-container{
     position:absolute;
@@ -907,8 +905,10 @@ body p{
     padding:5px;
     background-color:#820000;
     color:#000;
-    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-}
+    font-family: 'Jura', sans-serif;
+    font-size: 20px;
+  }
+
 .content-container .card .list-group-item{
     background-color:#820000;
     color:#FFFFFF;
@@ -919,11 +919,20 @@ body p{
     cursor: pointer;
     transition:0.45s ease;
 }
+.sidebar-container-text ul li{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+}
+.sidebar-container-text form{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+}
 .sidebar-container-text .signature{
     font-family: 'Mr De Haviland', cursive;
     font-size:60px;
     color:#004822;
 }
+
 /*--remove sidebar menu--*/
 @media only screen and (max-width: 980px){
     .content-container .sidebar-menu-container{

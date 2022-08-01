@@ -213,7 +213,7 @@
 
             <!-- News events and location-->
 
-            <div class="py-5 my-5 news-and-events">
+            <div class="py-5 my-5 news-and-events album">
                 <div class="container"  data-aos="fade-down">
                   <h1 class="text-xl-left">News</h1>
                   <div class="row">
@@ -249,7 +249,7 @@
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
                         <div class="mb-1 event_date_1">NOV 12</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
+                        <p class="mb-auto">This is a wider card with supporting text below ....</p>
                         <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
                       </div>
                     </div>
@@ -259,7 +259,7 @@
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
                         <div class="mb-1 event_date_2">OCT 21</div>
-                        <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
+                        <p class="mb-auto">This is a wider card with supporting text below ....</p>
                         <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
                       </div>
                     </div>

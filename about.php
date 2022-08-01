@@ -26,7 +26,7 @@
         <img src="img/logo-transp.png" alt="" height="200">
         <h4>Academy Council Message</h4>
 
-        I can’t say how pleased I am that we are able to welcome the students back to St Martins this year!<br>
+        <p>I can’t say how pleased I am that we are able to welcome the students back to St Martins this year!<br>
 
         It has been a year of many difficulties as you are well aware and I’m sure you’re also aware of how hard Debbie and her team have worked to try and offer support and education to you and your children during this unique time.<br>
 
@@ -36,7 +36,7 @@
 
         Though there will clearly be challenges ahead, we, the Academy Council (was Governing Body, but a change of name now we are an Academy) will do all that we can to support St Martins to stay open safely, to ensure all the students get the opportunity to experience the amazing education provided here.<br>
 
-        We wish you and your families well, and sincerely hope we can see a way forward to something more normal soon.
+        We wish you and your families well, and sincerely hope we can see a way forward to something more normal soon.</p>
 
 
         <h3 class="signature">Jeff Howe</h3>
