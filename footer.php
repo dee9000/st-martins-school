@@ -18,7 +18,7 @@
 
           </div>
 
-          <p class="text-center">St Martins School Derby</p>
+          <p class="text-center text-white">St Martins School Derby</p>
 
           <ul class="list-unstyled d-flex flex-row justify-content-center">
             <li>

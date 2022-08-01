@@ -238,7 +238,7 @@
                     </div>
                     <div class="col-md-4 twitter-embedd">
                       <div class="card mb-4 shadow-sm">
-                         <a class="twitter-timeline" data-width="550" data-height="370" data-theme="dark" href="https://twitter.com/SchudioTv?ref_src=twsrc%5Etfw">Tweets by SchudioTv</a> <script async src="https://platform.twitter.com/widgets.js" ></script>                      </div>
+                         <a class="twitter-timeline" data-width="550" data-height="387" data-theme="dark" href="https://twitter.com/SchudioTv?ref_src=twsrc%5Etfw">Tweets by SchudioTv</a> <script async src="https://platform.twitter.com/widgets.js" ></script>                      </div>
                     </div>
                     <!--Events-->
 
@@ -248,12 +248,9 @@
                     <div class="row no-gutters  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">NOV 12</div>
+                        <div class="mb-1 event_date_1">NOV 12</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
                         <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block events-image">
-                        <img src="img/holder4.jpg" height="200" alt="holder image">
                       </div>
                     </div>
                   </div>
@@ -261,12 +258,9 @@
                     <div class="row no-gutters  rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                       <div class="col p-4 d-flex flex-column position-static events-text-area">
                         <h3 class="mb-0">Featured post</h3>
-                        <div class="mb-1 text-muted">OCT 21</div>
+                        <div class="mb-1 event_date_2">OCT 21</div>
                         <p class="card-text mb-auto">This is a wider card with supporting text below ....</p>
                         <a href="news.php" class="btn btn-sm btn-outline-secondary">READ MORE</a>
-                      </div>
-                      <div class="col-auto d-none d-lg-block events-image">
-                       <img src="img/holder5.jpg" height="200" alt="holder image">
                       </div>
                     </div>
                   </div>

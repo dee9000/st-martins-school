@@ -1,4 +1,9 @@
 
+body p{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  color:#2B2B2B;
+}
 .card-body a:link, .card-body a:visited,  .card-body a:hover, .card-body a:active
 {
     text-decoration: none;
@@ -9,8 +14,9 @@
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.30);
-    font-size: 17px;
-    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-family: 'Jura', sans-serif;
+
 }
 .bg-transparent {
     transition:0.75s ease;
@@ -305,6 +311,11 @@
     background-image:url("img/background-white.jpg");
     background-size:cover;
     background-repeat:no-repeat;
+
+}
+.we-are-stmartins .lead{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
 }
 .featurette-headings {
     font-weight: 300;
@@ -397,6 +408,11 @@
 /*code for headteacher and horizons section*/
 .headteacher-section{
     position:relative;
+}
+.headteacher-section .lead{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  color:#2B2B2B;
 }
 .headteacher-pill{
     position:absolute;
@@ -565,6 +581,11 @@
     width:90%;
     padding:1.5em;
 }
+.visions-and-values .lead{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  color:#2B2B2B;
+}
 @media(max-width:550px) {
     .visions-and-values .featurette {
         width:100%;
@@ -577,6 +598,11 @@
 /* ---------------------Horizons 6th form school-------------------------*/
 .horizons-beige .col-md-7{
     background-color:#F6F3EC;
+}
+.horizons-beige .lead{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  color:#2B2B2B;
 }
 /* ------------------Reverse Animated Go button for horizons-------------------------- */
 .horizons-beige .btn-beige{
@@ -643,25 +669,29 @@
 .news-and-events .row{
     background-color:#820000;
 }
+.news-and-events .event_date_1{
+  font-family: 'Jura', sans-serif;
+  font-size: 22px;
+  color:green;
+}
+.news-and-events .event_date_2{
+  font-family: 'Jura', sans-serif;
+  font-size: 25px;
+  color:green;
+}
+.news-and-events .btn{
+  font-family: 'Jura', sans-serif;
+
+}
 .events-container{
     background-color:#820000;
 }
- 
+
+
 .news-and-events .events-text-area{
+    border-radius:15px 15px 15px 15px;
     background-color:#F6F3EC;
-}
 
-.news-and-events .events-image img{
-    border-radius:0 15px 15px 0;
-    transition:all ease 1s;
-}
-
-.news-and-events img:hover{
-    transform: scale(1.070);
-
-}
-.news-and-events .events-text-area{
-    border-radius:15px 0 0 15px;
 }
 .news-and-events .card:hover .overlay {
     opacity: 0.6;
@@ -773,9 +803,11 @@
 /*----------------footer--------------*/
 .footer-container{
     position:relative;
-    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+
 }
 .footer{
+    font-size: 16px;
+    font-family: 'Jura', sans-serif;
     background-color:#333333;
     bottom:-90;
     position: absolute;
@@ -841,6 +873,9 @@
     background-image:url("img/content-background.jpg");
     background-repeat:no-repeat;
     background-size:cover;
+    font-family: 'Jura', sans-serif;
+    font-size: 22px;
+    color:#2B2B2B;
 }
 .content-container{
     position:absolute;
